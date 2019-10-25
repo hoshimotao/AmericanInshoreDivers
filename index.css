@@ -1,9 +1,15 @@
+html{
+  background-color: #f7f7f7;
+}
+
+
 nav{
   background-color: rgb(0, 45, 98);
   color: rgb(255, 210, 4);
   background: fill;
   width: 100%;
   height: auto;
+  box-shadow: rgb(189, 188, 188) 5px 5px 5px;
 
 }
 
@@ -15,6 +21,7 @@ nav h1{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  
 }
 
 .directory{
@@ -40,26 +47,43 @@ nav h1{
 }
 
 .intro{
-  font-size: 2.5em;
-  height: 50vh;  
+
+  font-size: 2.0em;
+  height: 70vh;
+  width: 70vw;
   color: rgb(255, 255, 255);
-  margin-top: 2vh;
+  margin-top: 8vh;
   background-image: url("images/americanFlag.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
+  font-weight: 300; 
+  line-height: 1; 
   
-  
+}
+
+.intro h5{
+  align-self: center;
+  width: 60%;
+
+}
+
+.flexIntro{  
+  display: flex; 
+  justify-content: center;
 }
 
 .overlay{
 
-  background-color: rgba(109, 109, 109, 0.26);
+  background-color: rgba(49, 49, 49, 0.301);
   background-size: fill;
-  width: 98vw;
+  width: 100%;
   height: 100%;
   display:flex;
+  flex-direction: column;
   justify-content: center;
-  align-items: center;
+  font-size: 0.7em;
+  
+  text-align: center;
   
 }
 
@@ -73,33 +97,70 @@ nav h1{
 
 .flexDiv{
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 20px;
-  border-top: 2px gray;
-  padding-top: 20px;
+  justify-content: center;
+  margin-top: 40px;  
+  padding: 40px 0px;
   
   
 }
 
 .experience{
-  display: flex;
+  display: flex;  
+  align-items: center;
   flex-direction: column;
-  justify-content: center;
   color: white;
-  border: 2px solid rgb(0, 45, 98);
-  border-radius: 10px;
-  box-shadow: black 0px 10px 10px;
+  box-shadow: rgb(189, 188, 188) 5px 5px 5px;
   text-align: center;
-  width: 40vw;
-  background-image: linear-gradient(rgba(0, 45, 98),#ffffff);
-  
+  width: 70vw;
+  height: 25vh;
+  background-image: linear-gradient(rgba(0, 45, 98),#dadada);  
 }
 
-.experience h1{
+.experience p{
   
   padding: 0px 20px;
-  font-size: 1.6em;
-  margin-top: 10px;
+  font-size: 1em;
+  margin-top: 20px;
+  width: 47%;
+}
+
+.experience span{
+  font-weight: bold;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+
+.mission{
+  width: 70vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.mission li{
+  list-style-type: none;
+}
+
+.missionStatement{
+  text-align: center;
+  color: rgb(0, 45, 98);
+}
+
+.lists{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.list{
+  text-align: left;
+  margin: 5px 10px;
+  border: 2px solid rgb(0, 45, 98);
+  border-top: none;
+  padding: 10px;
+  margin-top: 2vh;
+  border-radius: 5px;
+  width: 25vw;
+  height: 25vh;
 }
 
