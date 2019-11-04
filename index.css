@@ -212,4 +212,9 @@ nav h1{
   color: black;
 }
 
+.servicesTitle{
+  display: flex;
+  justify-content: center;
+}
+
 
