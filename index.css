@@ -167,10 +167,24 @@ nav h1{
 
 .aboutUs{
   font-size: 4.5em;
-  margin-left: 10vw;
-  background-color: rgb(32, 32, 66);
-  margin-right: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   padding-left: 2vw;
-  color: goldenrod;
+  color: rgb(0, 45, 98);
+}
+
+.aboutSection{
+  border: 2px solid rgb(131, 131, 131);
+  border-radius: 10px;
+  box-shadow: rgb(189, 188, 188) 5px 5px 5px;
+  margin: 10vh 10vw;
+}
+
+.aboutDescription{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-left: 2vw;
+  font-size: 1.5em;
+  text-align: left;
 }
 
