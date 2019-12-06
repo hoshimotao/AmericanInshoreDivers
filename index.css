@@ -188,3 +188,18 @@ nav h1{
   text-align: left;
 }
 
+.membersOf{
+  margin-left: 5vw;
+  margin-right: 5vw;
+  padding-left: 2vw;
+  padding-bottom: 10vh;
+}
+
+.membersOf h2{
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.membersOf li{
+  font-weight: bold;
+}
