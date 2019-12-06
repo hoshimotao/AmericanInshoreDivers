@@ -165,3 +165,12 @@ nav h1{
   box-shadow: rgb(189, 188, 188) 5px 5px 5px;
 }
 
+.aboutUs{
+  font-size: 4.5em;
+  margin-left: 10vw;
+  background-color: rgb(32, 32, 66);
+  margin-right: 10vw;
+  padding-left: 2vw;
+  color: goldenrod;
+}
+
